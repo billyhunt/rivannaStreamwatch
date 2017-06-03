@@ -1,0 +1,3 @@
+rootProject.name = 'RivannaStreamwatch'
+
+include ':app'
