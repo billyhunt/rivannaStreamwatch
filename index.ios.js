@@ -10,7 +10,7 @@ import {
 
 } from 'react-native';
 
-import MainView from './src/MainView'
+import MainView from './src/MainViewTemp'
 
 
 export default class coolKDS extends Component {

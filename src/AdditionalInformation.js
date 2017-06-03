@@ -18,7 +18,7 @@ export default class AdditionalInformation extends Component {
     super(props);
     this.state = {
       completedView: false,
-      text: ''
+      additionalInformation: ''
     };
 
   }
@@ -31,8 +31,8 @@ export default class AdditionalInformation extends Component {
         <Text>Additional Information</Text>
         <TextInput
           style={styles.textBox}
-          onChangeText={(text) => this.setState({text})}
-          value={this.state.text}
+          onChangeText={(additionalInformation) => this.setState({additionalInformation})}
+          value={this.state.additionalInformation}
         />
       </View>
     );
